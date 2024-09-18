@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- 1. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <div class="container-fluid">
+            <img class="logo1" src="./resources/Group 2.png" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex ps-5"></form>
+                <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white m-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item m-2">
+                        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                    </li>
+                    <li class="nav-item m-3">
+                        <i class="fa fa-cart-arrow-down" style="font-size:15px; color:white"></i>
+                    </li>
+                    <li class="nav-item m-3 me-5">
+                        <i class="fa fa-user-o" style="font-size:15px;color:white"></i>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Slider  -->
+    <div class="banner p-0">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner container">
+                <div class="carousel-item active c-item">
+                    <img class="slider" src="./resources/Iphone Image.png" class="ms-5 w-100" alt="...">
+                    <div class="carousel-caption">
+                        <h5 class="mt-5">IPhone 14 Pro</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                    <div class="content">
+                    </div>
+                </div>
+
+                <div class="carousel-item c-item">
+                    <div class="carousel-caption">
+                        <h5>IPhone 14 Pro Max</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                    <img class="slider" src="./resources/Iphone 14 pro 1-2.png" class="d-block w-100" alt="...">
+                </div>
+
+                <div class="carousel-item c-item">
+                    <div class="carousel-caption">
+                        <h5>Blackmagic Pocket Cinema Camera</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                    <img class="slider" src="./resources/camera.png" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- 3. Banner2-items  -->
+    <div class="banner2 m-0 p-0">
+        <div class="container p-0 m-0">
+            <div class="row p-0">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="col-12 d-flex p-0 m-0 banner211">
+                        <div class="item mt-5 pt-5">
+                            <img src="./resources/ipad.png" alt="">
+                        </div>
+                        <div class="caption mt-5 text-center">
+                            <h1 class="">iPad 9</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, voluptate?</p>
+                        </div>
+
+                    </div>
+                    <div class="col-12 d-flex p-0 m-0 banner212">
+                        <div class="item mt-5 pt-5">
+                            <img src="./resources/Iphone 14 pro 1.png" style="object-fit: contain" alt="">
+                        </div>
+                        <div class="caption mt-5 text-center">
+                            <h3>Apple<br> Airpods</h3>
+                            <h1>Max</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, voluptate?</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6 p-0 m-0 banner22">
+                    <div class="items d-lg-flex d-sm-inline d-md-inline justify-content-center align-items-center">
+
+                        <div class="caption mt-5 text-center">
+                            <h3 class="ms-5">Mackbook</h3>
+                            <h1 class="ms-5">Air</h1>
+                            <p class="ms-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime, voluptate?
+                            </p>
+                            <a href="#" class="btn btn-primary ms-4 ms-lg-5 me-lg-5 mb-lg-3">Shop Now</a>
+
+                        </div>
+                        <div class="item mt-5 pt-5">
+                            <img src="./resources/Group 6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- 4. Catagory  -->
+    <div class="catagories bg-light">
+        <div class="container">
+            <h5 class="ms-5 pt-5 ps-4">Browse By Catagory</h5>
+
+            <div class="row p-5">
+                <div
+                    class="col-5 col-sm-6 col-md-6 col-lg-2 catg d-flex justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Phones</p>
+                </div>
+                <div
+                    class="col-5 col-sm-6 col-md-6 col-lg-2 catg d-flex justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Smart Watches</p>
+                </div>
+                <div
+                    class="col-5 col-sm-6 col-md-6 col-lg-2 catg d-flex justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Cameras</p>
+                </div>
+                <div
+                    class="col-5 col-sm-6 col-md-6 col-lg-2 catg d-flex justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Headphones</p>
+                </div>
+                <div
+                    class="col-5 col-sm-6 col-md-6 col-lg-2 catg d-flex justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Computers</p>
+                </div>
+                <div
+                    class="col-5 col-sm-6 col-md-4 col-lg-2 catg d-flex d-lg-none justify-content-center align-items-center flex-column">
+                    <i class="fa fa-cart-plus  mt-3" style="font-size:20px"></i>
+                    <p>Gaming</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. Products  -->
+    <div class="products">
+        <div class="container">
+            <div class="card text-center">
+                <div class="card-header">
+                    <ul class="nav nav-pills card-header-pills">
+                        <li class="nav-item">
+                            <!-- <a class="nav-link " href="#cb1">New Arrival</a> -->
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><u>New
+                                    Arrival</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- <a class="nav-link " href="#cb2">Bestseller</a> -->
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Bestseller</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Featured
+                                Products</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-body" id="cb1">
+                <div class="container">
+                    <div class="row m-3">
+                        <div class="col-6 col-lg-3">
+                            <div class="card h-100">
+                                <i class="fa fa-heart-o ms-5 ps-5 pt-3 pb-3" style="font-size:40px;color:gray"></i>
+
+                                <img src="./resources/Iphone 14 pro 1-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center text-wrap">Lorem ipsum dolor sit amet.</p>
+                                    <h5 class="card-title text-center">Card title</h5>
+                                </div>
+                                <a href="#" class="btn btn-primary m-2 ms-lg-5 me-lg-5 mb-lg-3">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card h-100">
+                                <i class="fa fa-heart-o  ms-5 ps-5 pt-3 pb-3" style="font-size:40px;color:gray"></i>
+                                <img src="./resources/camera.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center text-wrap">Lorem ipsum dolor sit amet.</p>
+                                    <h5 class="card-title text-center">Card title</h5>
+                                </div>
+                                <a href="#" class="btn btn-primary m-2 ms-lg-5 me-lg-5 mb-lg-3">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card h-100">
+                                <i class="fa fa-heart ms-5 ps-5 pt-3 pb-3" style="font-size:40px;color:red"></i>
+
+                                <img src="./resources/watch.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center text-wrap">Lorem ipsum dolor sit amet.</p>
+                                    <h5 class="card-title text-center">Card title</h5>
+                                </div>
+                                <a href="#" class="btn btn-primary m-2 ms-lg-5 me-lg-5 mb-lg-3">Buy Now</a>
+                            </div>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <div class="card h-100">
+                                <i class="fa fa-heart-o  ms-5 ps-5 pt-3 pb-3" style="font-size:40px;color:gray"></i>
+                                <img src="./resources/headphone.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center text-wrap">Lorem ipsum dolor sit amet.</p>
+                                    <h5 class="card-title text-center">Card title</h5>
+                                </div>
+                                <a href="#" class="btn btn-primary m-2 ms-lg-5 me-lg-5 mb-lg-3">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 6. Sale  -->
+    <div class="sale1111">
+        <div class="container">
+            <div class="row sale11">
+                <div class="col-lg-4">
+                    <img src="./resources/ipad2.png" alt="">
+                </div>
+                <div class="col-lg-4 text-center mt-lg-5 align-items-center justify-content-center">
+                    <h2 style="font-weight: bold;">11.11 SALE !</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, tempore. Mollitia deserunt
+                        quisquam molestias earum!</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="./resources/ipad.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. Footer  -->
+    <div class="Footer">
+        <div class="container">
+            <footer class="row row-cols-5 py-5 px-5 border-top ">
+                <div class="col-12 col-lg-4">
+                    <img src="./resources/Group 2.png" class="logo2 mt-lg-5 ms-3" alt="">
+                </div>
+
+                <div class="col-12 col-lg-4 text-center mt-3">
+                    <h5><u>Services</u></h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Home</li>
+                        <li class="nav-item mb-2">Features</li>
+                        <li class="nav-item mb-2">Pricing</li>
+                        <li class="nav-item mb-2">FAQs</li>
+                        <li class="nav-item mb-2">About</li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-lg-4 text-center mt-3">
+                    <h5><u>Assistant to the buyer</u></h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Home</li>
+                        <li class="nav-item mb-2">Features</li>
+                        <li class="nav-item mb-2">Pricing</li>
+                        <li class="nav-item mb-2">FAQs</li>
+                        <li class="nav-item mb-2">About</li>
+                    </ul>
+                </div>
+            </footer>
+            <div class="d-lg-flex justify-content-between py-4 my-4 border-top">
+                <p class="px-5">© 2024 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex px-5">
+                    <li class="ms-3">
+                        <i class="fa fa-facebook-square" style="font-size:30px;color:red"></i>
+                    </li>
+                    <li class="ms-3">
+                        <i class="fa fa-instagram" style="font-size:30px;color:red"></i>
+                    </li>
+                    <li class="ms-3">
+                        <i class="fa fa-linkedin-square" style="font-size:30px;color:red"></i>
+                    </li>
+                    <li class="ms-3">
+                        <i class="fa fa-twitter-square" style="font-size:30px;color:red"></i>
+                    </li>
+                    <li class="ms-3">
+                        <i class="fa fa-whatsapp" style="font-size:30px;color:red"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
