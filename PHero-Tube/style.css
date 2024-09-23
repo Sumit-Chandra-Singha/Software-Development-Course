@@ -1,0 +1,36 @@
+.menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding-top: 10px;
+}
+.catagories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.btn {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    
+}
+.catagories .btn {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5;
+    
+}
+.ic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+}
